@@ -34,7 +34,7 @@ const Location = () => {
     const [suggestions, setSuggetions] = useState([])
 
     const fetchAutoComplete = async (search) => {
-        const response = await axios.get(`https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=HPGICMMt60CIZ0GGkA4b5qDXGNqfOd5Y&q=${search}`).catch((err) => {
+        const response = await axios.get(`https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=spLzfudnyz7EG9tZ0CY9bG2Lz1v9Nam8&q=${search}`).catch((err) => {
             console.log("Err", err);
         })
         setSuggetions(response.data);

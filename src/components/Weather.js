@@ -50,10 +50,10 @@ const Weather = () => {
 
     async function getWeather(location) {
         if (location.Key != undefined) {
-            var conditionsData = await axios.get(`https://dataservice.accuweather.com/currentconditions/v1/${location.Key}?apikey=HPGICMMt60CIZ0GGkA4b5qDXGNqfOd5Y`).catch((err) => {
+            var conditionsData = await axios.get(`https://dataservice.accuweather.com/currentconditions/v1/${location.Key}?apikey=spLzfudnyz7EG9tZ0CY9bG2Lz1v9Nam8`).catch((err) => {
                 console.log("Err", err);
             })
-            var forecastData = await axios.get(`https://dataservice.accuweather.com/forecasts/v1/daily/5day/${location.Key}?apikey=HPGICMMt60CIZ0GGkA4b5qDXGNqfOd5Y`)
+            var forecastData = await axios.get(`https://dataservice.accuweather.com/forecasts/v1/daily/5day/${location.Key}?apikey=spLzfudnyz7EG9tZ0CY9bG2Lz1v9Nam8`)
             console.log(conditionsData)
             setConditions(conditionsData.data[0])
             console.log(forecastData)
