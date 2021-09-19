@@ -26,7 +26,7 @@ const [favorites,setFavorites]=useState([])
         var favorites = getItemFromLocalStorage()
 
         for (var favorite of favorites) {
-            var conditionsData = await axios.get(`http://dataservice.accuweather.com/currentconditions/v1/${favorite.Key}?apikey=HPGICMMt60CIZ0GGkA4b5qDXGNqfOd5Y`).catch((err) => {
+            var conditionsData = await axios.get(`https://dataservice.accuweather.com/currentconditions/v1/${favorite.Key}?apikey=HPGICMMt60CIZ0GGkA4b5qDXGNqfOd5Y`).catch((err) => {
                 console.log("Err", err);
             })
             favorite.tmp=celOrFar(conditionsData.data[0])
