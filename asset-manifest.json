@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Eden-Bar-18-09-2021/static/css/main.ff8776a6.chunk.css",
+    "main.js": "/Eden-Bar-18-09-2021/static/js/main.85869d15.chunk.js",
+    "main.js.map": "/Eden-Bar-18-09-2021/static/js/main.85869d15.chunk.js.map",
+    "runtime-main.js": "/Eden-Bar-18-09-2021/static/js/runtime-main.3cb2fe10.js",
+    "runtime-main.js.map": "/Eden-Bar-18-09-2021/static/js/runtime-main.3cb2fe10.js.map",
+    "static/js/2.15886fbb.chunk.js": "/Eden-Bar-18-09-2021/static/js/2.15886fbb.chunk.js",
+    "static/js/2.15886fbb.chunk.js.map": "/Eden-Bar-18-09-2021/static/js/2.15886fbb.chunk.js.map",
+    "index.html": "/Eden-Bar-18-09-2021/index.html",
+    "static/css/main.ff8776a6.chunk.css.map": "/Eden-Bar-18-09-2021/static/css/main.ff8776a6.chunk.css.map",
+    "static/js/2.15886fbb.chunk.js.LICENSE.txt": "/Eden-Bar-18-09-2021/static/js/2.15886fbb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3cb2fe10.js",
+    "static/js/2.15886fbb.chunk.js",
+    "static/css/main.ff8776a6.chunk.css",
+    "static/js/main.85869d15.chunk.js"
+  ]
+}
